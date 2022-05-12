@@ -11,6 +11,7 @@ import lua.Table;
 extern class RichText {
 
     public static function create(text:String, font:String, ?settings:Settings):CreateResult;
+    public static function remove(words:Table<String, Word>):Void;
     public static function tagged(words:Table<String, Word>, tag:String):Table<String, Word>;
     public static function on_click(words:Table<String, Word>, action:ScriptOnInputAction):Bool;
     
