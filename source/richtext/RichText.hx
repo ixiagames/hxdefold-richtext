@@ -39,10 +39,10 @@ typedef Settings = {
 
 typedef Font = {
 
-    regular:Hash,
-    italic:Hash,
-    bold:Hash,
-    bold_italic:Hash
+    ?regular:Hash,
+    ?italic:Hash,
+    ?bold:Hash,
+    ?bold_italic:Hash
 
 }
 
